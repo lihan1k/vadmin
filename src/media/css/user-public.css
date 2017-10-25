@@ -1,0 +1,96 @@
+﻿ul li{list-style-type:none}
+.page-sidebar-closed .page-sidebar .sidebar-search {height:0px;}
+.page-sidebar .sidebar-toggler {margin-top:6px;margin-bottom:6px;}
+.portlet-title .caption{font-size:16px}
+.portlet-body .searchform .btn {padding:6px 10px;margin-top:-13px;}
+.portlet-body input[type="button"],.portlet-body input[type="submit"]{padding:3px 12px;margin-bottom:10px}
+.container-fluid {padding-right:8px;padding-left:8px;}
+.container-fluid,.modal,.page-sidebar-menu li a{font-family:黑体;}
+.container-fluid li i,.container-fluid .caption i,.container-fluid a i,button i{font-family:FontAwesome;}
+.row-fluid{margin-top:8px}
+.control-group label {display:inline-block;margin-right:5px;margin-bottom:0px}
+.control-group .controls .vlm{vertical-align:-5px}
+.control-group input[type="radio"],.control-group label input[type="checkbox"] {vertical-align:-2px;margin:0px;margin-top:10px}
+.control-group input[type="time"]{width:70px}
+.form-horizontal{margin-bottom:0px}
+/*.form-horizontal .control-label{width:100px}
+.form-horizontal .controls{margin-left:110px}
+.modal{width:auto}*/
+.form-horizontal .control-group{margin-bottom:10px;}
+.modal-header .close{background-position:center center;height:30px;width:30px;margin-right:-5px;margin-top: 0px !important;}
+.form-horizontal select{width:auto;padding:2px}
+.modal-header .close:hover{background-color:#f5f5f5;border:2px solid #DAE7FE}
+.modal-header{padding:5px 15px; background-color:#fefefe}
+.modal-header h3{font-size:20px}
+
+#changelevel .form-horizontal .control-group{}
+#changelevel .form-horizontal .control-label{width:40px}
+#changelevel .form-horizontal .controls{margin-left:45px;/*padding-right:17px*/}
+@media(min-width:1200px){#changelevel{width:760px;margin-left:-380px}}
+#changelevel .btn.search{background:none;float:right;opacity:0.2;margin-left:-20px;padding:5px 10px;cursor:default}
+#changelevel .sreach_ipt{float:right;border:0;border-bottom:1px solid #d7d7de;background:transparent;outline:0;width:110px;padding-left:0px;text-indent:20px;margin-right:5px;display:none}
+/*
+#changelevel .sreach_ipt{box-shadow:none;background-image:url("../media/image/search-icon.png");background-repeat:no-repeat;background-position:2px 8px;}
+*/
+#changelevel .sreach_ipt:focus{box-shadow:none;outline:0}
+#changelevel .sreach_ipt.f-has{border-bottom-color:#2cd82c}
+#changelevel .sreach_ipt.f-no{border-bottom-color:#e42727}
+#changelevel .sreach_rm{float:right;opacity:0.2;position:relative;right:-112px;top:8px;display:none}
+#changelevel  i:before{cursor:pointer}
+#changelevel .modal-body{min-height:100px}
+#changelevel .modal-footer{padding:5px 15px}
+#changelevel .modal-footer .optionlist{margin-left:45px;float:left;padding-top:3px}
+#changelevel .modal-footer .optionlist a{margin:0}
+#changelevel .optionlist .matched{background-color:#FFFB7A;border-color:#ff8a8a}
+/*-------------- 蓝色按钮列表 ----------------- */
+.optionlist a{display:inline-block;padding:3px 8px;border:1px solid #A2B5D6;margin-bottom:8px;text-decoration:none;margin-right:10px; border-radius:10px !important;min-width:55px;text-align:center;box-shadow:1px 1px 1px #b3b3b3;background-color:#fff;position:relative;}
+.optionlist a b{color:#C11313;font-size:15px}
+.optionlist a:hover{background-color:#C6E5FF}
+.optionlist a.selected b{color:#fff}
+.optionlist a.selected{background-color:#2185DB !important;color:#fff;}
+.optionlist a.active{border-color:#f00;background-color:#f7f2e9}
+.optionlist a.bg1{background-color:#EEF9FF}
+.optionlist a.bg2{background-color:#FFF8E5}
+.optionlist a.fav .icon-star{color:#ffe100;position:absolute;right:-7px; top:-6px;font-size:18px}
+
+/*------------ 浮动提示 重写-----------------*/
+.page-content{position:relative;overflow:hidden}
+.alert{position:fixed;top:38px;margin:auto;left:0;right:0;padding:0px 10px;height:38px;line-height:38px;text-align:center;width:300px;font-size:15px;z-index:10049;font-family:微软雅黑}
+.alert.alert-success{border:1px solid #3EAB3C}
+.alert.alert-error{border:1px solid #AB3C3C}
+.alert.alert-warning{border:1px solid #AB903C}
+
+/*------------ 搜索表单样式-----------------*/
+.tabletool{float:right;margin-top:2px;margin-bottom:5px}
+.tabletool button{padding:3px 12px;}
+.searchform{margin:0px}
+.searchform select{width:auto;}
+.searchform .Wdate{width:90px}
+.searchform input[type="date"]{width:125px}
+.searchform input[type="time"]{width:70px}
+
+.tabbable-custom .searchdate > li.active {border-width:0px;border-bottom:3px solid #d12610}
+.tabbable-custom .searchdate > li.active a {border-width:0px;}
+
+.form .form-actions{padding-left:20px}
+.btn_upfile{position:absolute;top:-100px}
+
+/*------------ 列表小标题 ----------------*/
+.well.totaltext{padding:10px;margin:0px;margin-bottom:5px}
+
+.glb_pagingsize{float:right;margin-left:10px}
+#glb_pagingsize{width:auto;}
+
+@media (max-width:767px) {
+  .modal-body{max-height:initial;}
+}
+@media (max-width:480px) {
+  .searchform input[type="date"]{width:105px}
+}
+
+/*------------ 单选列表 -----------------*/
+.selectCFList label.list{display:inline-block; font-size:15px; text-align:center;margin-right:10px;border:3px solid #F4F4F4;border-radius:5px;position:relative}
+.selectCFList label.list img{max-height:100px}
+.selectCFList label.list.on{border-color:#1FD31F}
+.selectCFList label.list input[type="radio"]{height:1.2em;width:1.2em;vertical-align:-2px;margin:10px 0px}
+#divmodal_choosepic{position:fixed;top:2px}
